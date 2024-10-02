@@ -1,0 +1,80 @@
+.headshot{
+    margin-top: 10rem;
+    margin-left: 20rem;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 0;
+    margin-left: -550px;
+}
+
+.intro{
+    margin-top: 12rem;
+    margin-left: 13rem;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    padding: 0;
+    color:rgb(100, 98, 98);
+    font-size: 1.4rem;
+}
+
+.profile-info{
+    text-align: left;
+    padding: 0;
+    margin-bottom: -120px;
+}
+
+.intro-name{
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
+h2{
+    color: rgb(100, 98, 98);
+    text-align: center;
+    padding: 0;
+    margin-top: -2px;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.cv-btn{
+    background-color: #ffffff;
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+}
+
+.cv-btn:hover{
+    background-color: rgb(53, 53, 53);
+    color: white;
+    cursor: pointer;
+}
+.contact-btn{
+    background-color: rgb(53, 53, 53);
+    color: white;
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+}
+.contact-btn:hover{
+    background-color: black;
+}
