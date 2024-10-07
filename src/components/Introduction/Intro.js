@@ -1,6 +1,9 @@
 import Amer from '../../images/Amer.jpg';
+import Github from '../../images/github.png';
+import Linkedin from '../../images/linkedin.png';
 import React from 'react';
 import './Intro.css';
+
 
 const openPdf = () => {
     const pdfUrl = '/Amer_Samman_Resume.pdf';
@@ -8,7 +11,10 @@ const openPdf = () => {
   };
 
 
-export default function Intro(){
+export default function Intro({scrollToSection}){
+
+
+
     
     return(
         <div className ='info'>
@@ -25,7 +31,23 @@ export default function Intro(){
                     <button className='cv-btn' onClick={openPdf}>
                         Download CV
                     </button>
-                    <button className='contact-btn'>Contact Info</button>
+                    <button className='contact-btn' onclick={scrollToSection}>Contact Info</button>
+                </div>
+                <div className='social-container'>
+                <a href="https://linkedin.com/in/amer-samman/">
+                    <img
+                        src={Linkedin}
+                        alt='My LinkedIn Profile'
+                        className='icon'
+                    />
+                </a>
+                <a href='https://github.com/amersamman'>
+                    <img
+                    src={Github}
+                    alt='My GitHub Profile'
+                    className='icon'
+                    />
+                </a>
                 </div>
             </div>
             

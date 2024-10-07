@@ -34,3 +34,9 @@
     transform: rotate(360deg);
   }
 }
+
+.divvy{
+  height: 3000px;
+  width: 100px;
+  border: 5px;
+}
