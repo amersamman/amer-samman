@@ -2,6 +2,7 @@ import './App.css';
 import React from 'react';
 import NavBar from './components/NavBar/NavBar';
 import Intro from './components/Introduction/Intro';
+import About from './components/About/About';
 import Contact from './components/Contact/Cont';
 import { useRef } from 'react';
 
@@ -21,6 +22,7 @@ const scrollToSection = () => {
       <NavBar/>
 
       <Intro scrollToSection={scrollToSection}/>
+      <About/>
       <Contact sectionRef={sectionRef}/>
     </div>
   );
