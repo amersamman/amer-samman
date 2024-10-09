@@ -6,7 +6,7 @@ import EmailLogo from '../../images/emaillogo.png';
 export default function Contact({sectionRef}){
 
     return(
-        <section>
+        <section className='section'>
             <p className='touch'>Get In Touch</p>
             <h2 className='contactme'>Contact Me</h2>
             <div className='contact-box'>
